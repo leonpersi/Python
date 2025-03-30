@@ -1,6 +1,7 @@
 name = input("What's your name?")
 print("Hello " + name + ", Let's play a looping game")
 rounds=0
+
 def check_number(number):
     if number <= 5:
         print("Yikes " + name + "." + str(number) + ", that's a small number. Let's triple it to " + str(number * 3) + "!")
