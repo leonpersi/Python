@@ -18,7 +18,7 @@ player = Player(name)
 print("Hey " + player.name + ", Let's play a game!")
 playing = "yes"
 while playing == "yes":
-    number = input(int("Please choose a number between 1 - 10 "))
+    number = int(input("Please choose a number between 1 - 10 "))
     player.check_number(number)
     playing = input("Do you want to play again? (yes/no) ")
 print("Thanks for playing, " + player.name + "! You picked: " + str(player.numbers))
